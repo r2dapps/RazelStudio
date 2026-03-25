@@ -1,0 +1,183 @@
+{
+    "productId": "P-046",
+    "name": "Marine Teal",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1584474Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#008080",
+            "rgb": [
+                0,
+                128,
+                128
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#004040",
+                    "rgb": [
+                        0,
+                        64,
+                        64
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#006060",
+                    "rgb": [
+                        0,
+                        96,
+                        96
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#008080",
+                    "rgb": [
+                        0,
+                        128,
+                        128
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#008D8D",
+                    "rgb": [
+                        0,
+                        141,
+                        141
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#00A0A0",
+                    "rgb": [
+                        0,
+                        160,
+                        160
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#00C0C0",
+                    "rgb": [
+                        0,
+                        192,
+                        192
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 2075,
+        "selectionCount": 197,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 313.028564453125,
+        "lastViewed": "2026-03-20T08:11:32.9412698Z"
+    }
+}

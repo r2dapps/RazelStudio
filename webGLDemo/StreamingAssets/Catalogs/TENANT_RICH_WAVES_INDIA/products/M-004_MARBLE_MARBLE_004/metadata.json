@@ -1,0 +1,127 @@
+{
+    "productId": "M-004",
+    "name": "Marble_Marble 004",
+    "productType": "Marble",
+    "categoryId": "CAT_MARBLE",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1716856Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Wall",
+        "Floor"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "",
+            "rgb": [
+                0,
+                0,
+                0
+            ],
+            "shadePalette": []
+        },
+        "parameters": {
+            "textureId": "CUSTOM",
+            "smoothness": 0.949999988079071,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 23866
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "products/M-004_MARBLE_MARBLE_004/textures/albedo.jpg",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "SMP",
+            "label": "Sample",
+            "quantity": 1.0,
+            "unit": "Pcs",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 150.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "STD",
+            "label": "Standard",
+            "quantity": 10.0,
+            "unit": "SqM",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1500.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "TRD",
+            "label": "Trade",
+            "quantity": 50.0,
+            "unit": "SqM",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 6500.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Marble Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Durable"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 1984,
+        "selectionCount": 56,
+        "lastSelectedVariantSKU": "STD",
+        "totalTimeViewed": 1033.9185791015625,
+        "lastViewed": "2026-03-20T18:11:42.8338407Z"
+    }
+}

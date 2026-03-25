@@ -1,0 +1,183 @@
+{
+    "productId": "P-010",
+    "name": "Linen Cloud",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1357555Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#F5F5DC",
+            "rgb": [
+                245,
+                245,
+                220
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#7A7A6E",
+                    "rgb": [
+                        122,
+                        122,
+                        110
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#B8B8A5",
+                    "rgb": [
+                        184,
+                        184,
+                        165
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#F5F5DC",
+                    "rgb": [
+                        245,
+                        245,
+                        220
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#FFFFE5",
+                    "rgb": [
+                        255,
+                        255,
+                        229
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#FFFFE5",
+                    "rgb": [
+                        255,
+                        255,
+                        229
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#FFFFE5",
+                    "rgb": [
+                        255,
+                        255,
+                        229
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 722,
+        "selectionCount": 113,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 414.4964599609375,
+        "lastViewed": "2026-03-20T11:11:30.9392434Z"
+    }
+}

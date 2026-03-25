@@ -1,0 +1,16 @@
+{
+    "baseId": "Fine Stucco",
+    "style": "Stucco",
+    "albedo": {
+        "instanceID": 28326
+    },
+    "normal": {
+        "instanceID": 28296
+    },
+    "roughness": {
+        "instanceID": 28284
+    },
+    "albedoPath": "assets/shared_bases/Fine Stucco/albedo.jpg",
+    "normalPath": "assets/shared_bases/Fine Stucco/normal.jpg",
+    "roughnessPath": "assets/shared_bases/Fine Stucco/roughness.jpg"
+}

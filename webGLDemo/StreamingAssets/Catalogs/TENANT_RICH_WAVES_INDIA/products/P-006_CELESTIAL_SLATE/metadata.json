@@ -1,0 +1,183 @@
+{
+    "productId": "P-006",
+    "name": "Celestial Slate",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1315476Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#4E5D6C",
+            "rgb": [
+                78,
+                93,
+                108
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#272E36",
+                    "rgb": [
+                        39,
+                        46,
+                        54
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#3B4651",
+                    "rgb": [
+                        59,
+                        70,
+                        81
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#4E5D6C",
+                    "rgb": [
+                        78,
+                        93,
+                        108
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#566677",
+                    "rgb": [
+                        86,
+                        102,
+                        119
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#627487",
+                    "rgb": [
+                        98,
+                        116,
+                        135
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#758CA2",
+                    "rgb": [
+                        117,
+                        140,
+                        162
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 573,
+        "selectionCount": 177,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 245.43878173828126,
+        "lastViewed": "2026-03-21T11:11:30.7212489Z"
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "productId": "P-050",
+    "name": "Dark Cedar",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1604421Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#3E2723",
+            "rgb": [
+                62,
+                39,
+                35
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#1F1412",
+                    "rgb": [
+                        31,
+                        20,
+                        18
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#2E1D1A",
+                    "rgb": [
+                        46,
+                        29,
+                        26
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#3E2723",
+                    "rgb": [
+                        62,
+                        39,
+                        35
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#442B26",
+                    "rgb": [
+                        68,
+                        43,
+                        38
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#4E312C",
+                    "rgb": [
+                        78,
+                        49,
+                        44
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#5D3B35",
+                    "rgb": [
+                        93,
+                        59,
+                        53
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 2335,
+        "selectionCount": 238,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 1073.2247314453125,
+        "lastViewed": "2026-03-20T21:11:33.1667493Z"
+    }
+}

@@ -1,0 +1,935 @@
+{
+    "platform": {
+        "schemaVersion": "4.0.0",
+        "environment": "production",
+        "localAssetRoot": "StreamingAssets/TexturedPaints/",
+        "catalogVersion": 4,
+        "lastExportedUTC": "2026-03-20T10:00:00Z",
+        "integrity": {
+            "locked": false,
+            "hashAlgorithm": "SHA256",
+            "hash": ""
+        }
+    },
+    "tenants": [
+        {
+            "tenantId": "RICHWAVES_STUDIO",
+            "name": "Richwaves Digital Finishes"
+        }
+    ],
+    "products": [
+        {
+            "productId": "FINISH_001",
+            "name": "Micro-Concrete",
+            "productType": "Textured Plaster",
+            "rendering": {
+                "colorData": {
+                    "hex": "#3A3F44",
+                    "rgb": [
+                        58,
+                        63,
+                        68
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Obsidian Mist",
+                            "hex": "#3A3F44",
+                            "rgb": [
+                                58,
+                                63,
+                                68
+                            ]
+                        },
+                        {
+                            "label": "Celestial Slate",
+                            "hex": "#4E5D6C",
+                            "rgb": [
+                                78,
+                                93,
+                                108
+                            ]
+                        },
+                        {
+                            "label": "Urban Charcoal",
+                            "hex": "#363636",
+                            "rgb": [
+                                54,
+                                54,
+                                54
+                            ]
+                        },
+                        {
+                            "label": "Classic Greige",
+                            "hex": "#BDB7AB",
+                            "rgb": [
+                                189,
+                                183,
+                                171
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Micro-Concrete",
+                    "smoothness": 0.25,
+                    "metallic": 0.0,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.2,
+                    "textureTiling": 1.0
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-MC-SMP",
+                    "label": "1kg Sample Pack",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 450.0,
+                        "coveragePerUnit": 6.0
+                    }
+                },
+                {
+                    "sku": "RW-MC-STD",
+                    "label": "10kg Standard Bucket",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 3800.0,
+                        "coveragePerUnit": 60.0
+                    }
+                },
+                {
+                    "sku": "RW-MC-TRD",
+                    "label": "25kg Trade Tub",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 8500.0,
+                        "coveragePerUnit": 150.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 842,
+                "selectionCount": 156
+            }
+        },
+        {
+            "productId": "FINISH_002",
+            "name": "Oxidized Copper",
+            "productType": "Metallic Patina",
+            "rendering": {
+                "colorData": {
+                    "hex": "#8A9A5B",
+                    "rgb": [
+                        138,
+                        154,
+                        91
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Sage Sanctuary",
+                            "hex": "#8A9A5B",
+                            "rgb": [
+                                138,
+                                154,
+                                91
+                            ]
+                        },
+                        {
+                            "label": "Marine Teal",
+                            "hex": "#008080",
+                            "rgb": [
+                                0,
+                                128,
+                                128
+                            ]
+                        },
+                        {
+                            "label": "Stormy Pacific",
+                            "hex": "#4A646C",
+                            "rgb": [
+                                74,
+                                100,
+                                108
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Oxidized Copper",
+                    "smoothness": 0.35,
+                    "metallic": 0.4,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.5,
+                    "textureTiling": 1.5
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-OC-TCH",
+                    "label": "1L Touch-up Kit",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 1200.0,
+                        "coveragePerUnit": 8.0
+                    }
+                },
+                {
+                    "sku": "RW-OC-STD",
+                    "label": "5L Feature Kit",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 5500.0,
+                        "coveragePerUnit": 40.0
+                    }
+                },
+                {
+                    "sku": "RW-OC-PRO",
+                    "label": "15L Professional Kit",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 14500.0,
+                        "coveragePerUnit": 120.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 1205,
+                "selectionCount": 89
+            }
+        },
+        {
+            "productId": "FINISH_003",
+            "name": "Travertine Stone",
+            "productType": "Faux Stone",
+            "rendering": {
+                "colorData": {
+                    "hex": "#D4A373",
+                    "rgb": [
+                        212,
+                        163,
+                        115
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Desert Mirage",
+                            "hex": "#D4A373",
+                            "rgb": [
+                                212,
+                                163,
+                                115
+                            ]
+                        },
+                        {
+                            "label": "Linen Cloud",
+                            "hex": "#F5F5DC",
+                            "rgb": [
+                                245,
+                                245,
+                                220
+                            ]
+                        },
+                        {
+                            "label": "Oatmeal Cookie",
+                            "hex": "#DECDBE",
+                            "rgb": [
+                                222,
+                                205,
+                                190
+                            ]
+                        },
+                        {
+                            "label": "Toasted Almond",
+                            "hex": "#D2B48C",
+                            "rgb": [
+                                210,
+                                180,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Travertine Stone",
+                    "smoothness": 0.15,
+                    "metallic": 0.0,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.1,
+                    "textureTiling": 2.0
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-TS-SMP",
+                    "label": "5kg Sample Bag",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 850.0,
+                        "coveragePerUnit": 15.0
+                    }
+                },
+                {
+                    "sku": "RW-TS-STD",
+                    "label": "15kg Standard Bag",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 2400.0,
+                        "coveragePerUnit": 45.0
+                    }
+                },
+                {
+                    "sku": "RW-TS-TRD",
+                    "label": "25kg Trade Bag",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 3800.0,
+                        "coveragePerUnit": 75.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 930,
+                "selectionCount": 210
+            }
+        },
+        {
+            "productId": "FINISH_004",
+            "name": "Industrial Rust",
+            "productType": "Textured Finish",
+            "rendering": {
+                "colorData": {
+                    "hex": "#432C2C",
+                    "rgb": [
+                        67,
+                        44,
+                        44
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Midnight Ember",
+                            "hex": "#432C2C",
+                            "rgb": [
+                                67,
+                                44,
+                                44
+                            ]
+                        },
+                        {
+                            "label": "Dusty Sienna",
+                            "hex": "#A0522D",
+                            "rgb": [
+                                160,
+                                82,
+                                45
+                            ]
+                        },
+                        {
+                            "label": "Terracotta Hearth",
+                            "hex": "#BF6D4E",
+                            "rgb": [
+                                191,
+                                109,
+                                78
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Industrial Rust",
+                    "smoothness": 0.10,
+                    "metallic": 0.0,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.05,
+                    "textureTiling": 1.0
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-IR-ACC",
+                    "label": "1L Accent Kit",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 1400.0,
+                        "coveragePerUnit": 6.0
+                    }
+                },
+                {
+                    "sku": "RW-IR-STD",
+                    "label": "5L Feature Wall",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 6200.0,
+                        "coveragePerUnit": 30.0
+                    }
+                },
+                {
+                    "sku": "RW-IR-COM",
+                    "label": "15L Commercial Kit",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 16000.0,
+                        "coveragePerUnit": 90.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 1450,
+                "selectionCount": 112
+            }
+        },
+        {
+            "productId": "FINISH_005",
+            "name": "Venetian Plaster",
+            "productType": "Polished Plaster",
+            "rendering": {
+                "colorData": {
+                    "hex": "#FEFBF3",
+                    "rgb": [
+                        254,
+                        251,
+                        243
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Ivory Parchment",
+                            "hex": "#FEFBF3",
+                            "rgb": [
+                                254,
+                                251,
+                                243
+                            ]
+                        },
+                        {
+                            "label": "Alabaster Breath",
+                            "hex": "#F2F0E6",
+                            "rgb": [
+                                242,
+                                240,
+                                230
+                            ]
+                        },
+                        {
+                            "label": "Crisp Linen",
+                            "hex": "#FAF9F6",
+                            "rgb": [
+                                250,
+                                249,
+                                246
+                            ]
+                        },
+                        {
+                            "label": "Petal Whisper",
+                            "hex": "#F4E1E1",
+                            "rgb": [
+                                244,
+                                225,
+                                225
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Venetian Plaster",
+                    "smoothness": 0.85,
+                    "metallic": 0.0,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.7,
+                    "textureTiling": 1.0
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-VP-TST",
+                    "label": "1kg Tester",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 1100.0,
+                        "coveragePerUnit": 5.0
+                    }
+                },
+                {
+                    "sku": "RW-VP-STD",
+                    "label": "10kg Standard Tub",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 9500.0,
+                        "coveragePerUnit": 50.0
+                    }
+                },
+                {
+                    "sku": "RW-VP-TRD",
+                    "label": "20kg Trade Tub",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 18000.0,
+                        "coveragePerUnit": 100.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 2100,
+                "selectionCount": 340
+            }
+        },
+        {
+            "productId": "FINISH_006",
+            "name": "Gunmetal Steel",
+            "productType": "Metallic Finish",
+            "rendering": {
+                "colorData": {
+                    "hex": "#2A3439",
+                    "rgb": [
+                        42,
+                        52,
+                        57
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Gunmetal Industrial",
+                            "hex": "#2A3439",
+                            "rgb": [
+                                42,
+                                52,
+                                57
+                            ]
+                        },
+                        {
+                            "label": "Iron Ore",
+                            "hex": "#3F3F3F",
+                            "rgb": [
+                                63,
+                                63,
+                                63
+                            ]
+                        },
+                        {
+                            "label": "Silver Storm",
+                            "hex": "#B2BEB5",
+                            "rgb": [
+                                178,
+                                190,
+                                181
+                            ]
+                        },
+                        {
+                            "label": "Nickel Plate",
+                            "hex": "#A5A9A0",
+                            "rgb": [
+                                165,
+                                169,
+                                160
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Gunmetal Steel",
+                    "smoothness": 0.70,
+                    "metallic": 1.0,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.6,
+                    "textureTiling": 1.5
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-GS-SMP",
+                    "label": "1L Sample Base",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 950.0,
+                        "coveragePerUnit": 5.5
+                    }
+                },
+                {
+                    "sku": "RW-GS-STD",
+                    "label": "10L Standard Base",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 8200.0,
+                        "coveragePerUnit": 55.0
+                    }
+                },
+                {
+                    "sku": "RW-GS-COM",
+                    "label": "20L Commercial Base",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 15500.0,
+                        "coveragePerUnit": 110.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 670,
+                "selectionCount": 85
+            }
+        },
+        {
+            "productId": "FINISH_007",
+            "name": "Lime Wash",
+            "productType": "Matte Wash",
+            "rendering": {
+                "colorData": {
+                    "hex": "#96A088",
+                    "rgb": [
+                        150,
+                        160,
+                        136
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Misty Moss",
+                            "hex": "#96A088",
+                            "rgb": [
+                                150,
+                                160,
+                                136
+                            ]
+                        },
+                        {
+                            "label": "Pale Eucalyptus",
+                            "hex": "#B2BEB5",
+                            "rgb": [
+                                178,
+                                190,
+                                181
+                            ]
+                        },
+                        {
+                            "label": "Dusty Lavender",
+                            "hex": "#AC92B3",
+                            "rgb": [
+                                172,
+                                146,
+                                179
+                            ]
+                        },
+                        {
+                            "label": "Rose Clay",
+                            "hex": "#BC8F8F",
+                            "rgb": [
+                                188,
+                                143,
+                                143
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Lime Wash",
+                    "smoothness": 0.05,
+                    "metallic": 0.0,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.1,
+                    "textureTiling": 2.0
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-LW-SMP",
+                    "label": "1L Sample Tin",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 400.0,
+                        "coveragePerUnit": 9.0
+                    }
+                },
+                {
+                    "sku": "RW-LW-STD",
+                    "label": "10L Standard Tin",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 3400.0,
+                        "coveragePerUnit": 90.0
+                    }
+                },
+                {
+                    "sku": "RW-LW-TRD",
+                    "label": "20L Trade Tin",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 6200.0,
+                        "coveragePerUnit": 180.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 1150,
+                "selectionCount": 195
+            }
+        },
+        {
+            "productId": "FINISH_008",
+            "name": "Antique Brass",
+            "productType": "Metallic Patina",
+            "rendering": {
+                "colorData": {
+                    "hex": "#B87333",
+                    "rgb": [
+                        184,
+                        115,
+                        51
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Copper Harvest",
+                            "hex": "#B87333",
+                            "rgb": [
+                                184,
+                                115,
+                                51
+                            ]
+                        },
+                        {
+                            "label": "Burnished Bronze",
+                            "hex": "#8C7853",
+                            "rgb": [
+                                140,
+                                120,
+                                83
+                            ]
+                        },
+                        {
+                            "label": "Golden Honey",
+                            "hex": "#D4AF37",
+                            "rgb": [
+                                212,
+                                175,
+                                55
+                            ]
+                        },
+                        {
+                            "label": "Mustard Seed",
+                            "hex": "#E3A857",
+                            "rgb": [
+                                227,
+                                168,
+                                87
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Antique Brass",
+                    "smoothness": 0.60,
+                    "metallic": 1.0,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.5,
+                    "textureTiling": 1.0
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-AB-TCH",
+                    "label": "1L Touch-up Kit",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 1350.0,
+                        "coveragePerUnit": 6.5
+                    }
+                },
+                {
+                    "sku": "RW-AB-STD",
+                    "label": "5L Feature Kit",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 6100.0,
+                        "coveragePerUnit": 32.5
+                    }
+                },
+                {
+                    "sku": "RW-AB-PRO",
+                    "label": "15L Professional Kit",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 16500.0,
+                        "coveragePerUnit": 97.5
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 890,
+                "selectionCount": 104
+            }
+        },
+        {
+            "productId": "FINISH_009",
+            "name": "Raw Slate",
+            "productType": "Textured Stone",
+            "rendering": {
+                "colorData": {
+                    "hex": "#2E4057",
+                    "rgb": [
+                        46,
+                        64,
+                        87
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Indigo Haze",
+                            "hex": "#2E4057",
+                            "rgb": [
+                                46,
+                                64,
+                                87
+                            ]
+                        },
+                        {
+                            "label": "Nordic Navy",
+                            "hex": "#2C3E50",
+                            "rgb": [
+                                44,
+                                62,
+                                80
+                            ]
+                        },
+                        {
+                            "label": "Ebony Stain",
+                            "hex": "#282828",
+                            "rgb": [
+                                40,
+                                40,
+                                40
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Raw Slate",
+                    "smoothness": 0.10,
+                    "metallic": 0.0,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.1,
+                    "textureTiling": 1.5
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-RS-SMP",
+                    "label": "5kg Sample Bag",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 950.0,
+                        "coveragePerUnit": 14.0
+                    }
+                },
+                {
+                    "sku": "RW-RS-STD",
+                    "label": "15kg Standard Bag",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 2600.0,
+                        "coveragePerUnit": 42.0
+                    }
+                },
+                {
+                    "sku": "RW-RS-TRD",
+                    "label": "25kg Trade Bag",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 4100.0,
+                        "coveragePerUnit": 70.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 1050,
+                "selectionCount": 165
+            }
+        },
+        {
+            "productId": "FINISH_010",
+            "name": "Pearl Essence",
+            "productType": "Iridescent Gloss",
+            "rendering": {
+                "colorData": {
+                    "hex": "#F7E7CE",
+                    "rgb": [
+                        247,
+                        231,
+                        206
+                    ],
+                    "shadePalette": [
+                        {
+                            "label": "Champagne Silk",
+                            "hex": "#F7E7CE",
+                            "rgb": [
+                                247,
+                                231,
+                                206
+                            ]
+                        },
+                        {
+                            "label": "Blush Silk",
+                            "hex": "#FFD1DC",
+                            "rgb": [
+                                255,
+                                209,
+                                220
+                            ]
+                        },
+                        {
+                            "label": "Vanilla Cream",
+                            "hex": "#F3E5AB",
+                            "rgb": [
+                                243,
+                                229,
+                                171
+                            ]
+                        },
+                        {
+                            "label": "Arctic Willow",
+                            "hex": "#D1D9D0",
+                            "rgb": [
+                                209,
+                                217,
+                                208
+                            ]
+                        }
+                    ]
+                },
+                "parameters": {
+                    "textureId": "Pearl Essence",
+                    "smoothness": 0.90,
+                    "metallic": 0.1,
+                    "normalStrength": 2.0,
+                    "reflectance": 0.8,
+                    "textureTiling": 1.0
+                }
+            },
+            "variants": [
+                {
+                    "sku": "RW-PE-TST",
+                    "label": "1L Tester Base",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 1200.0,
+                        "coveragePerUnit": 6.5
+                    }
+                },
+                {
+                    "sku": "RW-PE-STD",
+                    "label": "10L Standard Base",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 10500.0,
+                        "coveragePerUnit": 65.0
+                    }
+                },
+                {
+                    "sku": "RW-PE-LUX",
+                    "label": "20L Luxury Base",
+                    "pricing": {
+                        "currency": "INR",
+                        "basePrice": 19800.0,
+                        "coveragePerUnit": 130.0
+                    }
+                }
+            ],
+            "analytics": {
+                "viewCount": 2400,
+                "selectionCount": 410
+            }
+        }
+    ]
+}

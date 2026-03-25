@@ -1,0 +1,183 @@
+{
+    "productId": "P-009",
+    "name": "Indigo Haze",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1327649Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#2E4057",
+            "rgb": [
+                46,
+                64,
+                87
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#17202C",
+                    "rgb": [
+                        23,
+                        32,
+                        44
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#223041",
+                    "rgb": [
+                        34,
+                        48,
+                        65
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#2E4057",
+                    "rgb": [
+                        46,
+                        64,
+                        87
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#334660",
+                    "rgb": [
+                        51,
+                        70,
+                        96
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#3A506D",
+                    "rgb": [
+                        58,
+                        80,
+                        109
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#456082",
+                    "rgb": [
+                        69,
+                        96,
+                        130
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 669,
+        "selectionCount": 230,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 878.3532104492188,
+        "lastViewed": "2026-03-19T18:11:30.8851904Z"
+    }
+}

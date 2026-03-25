@@ -1,0 +1,183 @@
+{
+    "productId": "P-035",
+    "name": "Mustard Seed",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1479849Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#E3A857",
+            "rgb": [
+                227,
+                168,
+                87
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#72542C",
+                    "rgb": [
+                        114,
+                        84,
+                        44
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#AA7E41",
+                    "rgb": [
+                        170,
+                        126,
+                        65
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#E3A857",
+                    "rgb": [
+                        227,
+                        168,
+                        87
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#FAB960",
+                    "rgb": [
+                        250,
+                        185,
+                        96
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#FFBD62",
+                    "rgb": [
+                        255,
+                        189,
+                        98
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#FFBD62",
+                    "rgb": [
+                        255,
+                        189,
+                        98
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 1997,
+        "selectionCount": 158,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 1328.96240234375,
+        "lastViewed": "2026-03-21T09:11:32.3262219Z"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "baseId": "Matte",
+    "style": "Matte",
+    "albedo": {
+        "instanceID": 28294
+    },
+    "normal": {
+        "instanceID": 28228
+    },
+    "roughness": {
+        "instanceID": 28252
+    },
+    "albedoPath": "assets/shared_bases/Matte/albedo.jpg",
+    "normalPath": "assets/shared_bases/Matte/normal.jpg",
+    "roughnessPath": "assets/shared_bases/Matte/roughness.jpg"
+}

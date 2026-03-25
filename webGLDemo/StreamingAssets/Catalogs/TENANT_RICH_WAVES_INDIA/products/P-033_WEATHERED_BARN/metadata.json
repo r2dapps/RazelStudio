@@ -1,0 +1,183 @@
+{
+    "productId": "P-033",
+    "name": "Weathered Barn",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1469453Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#7B3F00",
+            "rgb": [
+                123,
+                63,
+                0
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#3E2000",
+                    "rgb": [
+                        62,
+                        32,
+                        0
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#5C2F00",
+                    "rgb": [
+                        92,
+                        47,
+                        0
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#7B3F00",
+                    "rgb": [
+                        123,
+                        63,
+                        0
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#874500",
+                    "rgb": [
+                        135,
+                        69,
+                        0
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#9A4F00",
+                    "rgb": [
+                        154,
+                        79,
+                        0
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#B85E00",
+                    "rgb": [
+                        184,
+                        94,
+                        0
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 2124,
+        "selectionCount": 209,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 1252.987548828125,
+        "lastViewed": "2026-03-21T10:11:32.2114010Z"
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "productId": "P-026",
+    "name": "Terracotta Hearth",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1439533Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#BF6D4E",
+            "rgb": [
+                191,
+                109,
+                78
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#603727",
+                    "rgb": [
+                        96,
+                        55,
+                        39
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#8F523B",
+                    "rgb": [
+                        143,
+                        82,
+                        59
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#BF6D4E",
+                    "rgb": [
+                        191,
+                        109,
+                        78
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#D27856",
+                    "rgb": [
+                        210,
+                        120,
+                        86
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#EF8862",
+                    "rgb": [
+                        239,
+                        136,
+                        98
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#FF9268",
+                    "rgb": [
+                        255,
+                        146,
+                        104
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 501,
+        "selectionCount": 275,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 765.3699951171875,
+        "lastViewed": "2026-03-20T18:11:31.8230026Z"
+    }
+}

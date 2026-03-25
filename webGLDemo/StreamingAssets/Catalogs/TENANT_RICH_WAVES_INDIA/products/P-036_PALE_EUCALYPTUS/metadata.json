@@ -1,0 +1,183 @@
+{
+    "productId": "P-036",
+    "name": "Pale Eucalyptus",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1484963Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#B2BEB5",
+            "rgb": [
+                178,
+                190,
+                181
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#595F5A",
+                    "rgb": [
+                        89,
+                        95,
+                        90
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#868E88",
+                    "rgb": [
+                        134,
+                        142,
+                        136
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#B2BEB5",
+                    "rgb": [
+                        178,
+                        190,
+                        181
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#C4D1C7",
+                    "rgb": [
+                        196,
+                        209,
+                        199
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#DFEEE2",
+                    "rgb": [
+                        223,
+                        238,
+                        226
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#EFFFF3",
+                    "rgb": [
+                        239,
+                        255,
+                        243
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 465,
+        "selectionCount": 350,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 985.0451049804688,
+        "lastViewed": "2026-03-20T10:11:32.3815558Z"
+    }
+}

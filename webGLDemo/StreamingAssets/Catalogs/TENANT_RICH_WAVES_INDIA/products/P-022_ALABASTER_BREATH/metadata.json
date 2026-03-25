@@ -1,0 +1,183 @@
+{
+    "productId": "P-022",
+    "name": "Alabaster Breath",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1419588Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#F2F0E6",
+            "rgb": [
+                242,
+                240,
+                230
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#797873",
+                    "rgb": [
+                        121,
+                        120,
+                        115
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#B6B4AC",
+                    "rgb": [
+                        182,
+                        180,
+                        172
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#F2F0E6",
+                    "rgb": [
+                        242,
+                        240,
+                        230
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#FFFDF2",
+                    "rgb": [
+                        255,
+                        253,
+                        242
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#FFFDF2",
+                    "rgb": [
+                        255,
+                        253,
+                        242
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#FFFDF2",
+                    "rgb": [
+                        255,
+                        253,
+                        242
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 574,
+        "selectionCount": 228,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 943.8162841796875,
+        "lastViewed": "2026-03-20T04:11:31.6015259Z"
+    }
+}

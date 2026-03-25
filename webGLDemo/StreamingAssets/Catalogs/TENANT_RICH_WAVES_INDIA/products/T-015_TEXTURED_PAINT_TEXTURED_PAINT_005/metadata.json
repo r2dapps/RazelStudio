@@ -1,0 +1,380 @@
+{
+    "productId": "T-015",
+    "name": "Textured Paint_Textured Paint 005",
+    "productType": "Textured Paint",
+    "categoryId": "CAT_TEXTUREDPAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.0327002Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Wall",
+        "Exterior"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#0000FF",
+            "rgb": [
+                0,
+                0,
+                255
+            ],
+            "shadePalette": [
+                {
+                    "label": "Electric Amethyst - Thick",
+                    "hex": "#9400D3",
+                    "rgb": [
+                        148,
+                        0,
+                        211
+                    ]
+                },
+                {
+                    "label": "Electric Amethyst - Standard",
+                    "hex": "#B42FED",
+                    "rgb": [
+                        180,
+                        47,
+                        237
+                    ]
+                },
+                {
+                    "label": "Electric Amethyst - Light",
+                    "hex": "#D166FF",
+                    "rgb": [
+                        209,
+                        102,
+                        255
+                    ]
+                },
+                {
+                    "label": "Electric Amethyst - Mist",
+                    "hex": "#E199FF",
+                    "rgb": [
+                        225,
+                        153,
+                        255
+                    ]
+                },
+                {
+                    "label": "Royal Amethyst - Thick",
+                    "hex": "#4B0082",
+                    "rgb": [
+                        75,
+                        0,
+                        130
+                    ]
+                },
+                {
+                    "label": "Royal Amethyst - Standard",
+                    "hex": "#671F9C",
+                    "rgb": [
+                        103,
+                        31,
+                        156
+                    ]
+                },
+                {
+                    "label": "Royal Amethyst - Light",
+                    "hex": "#8748B5",
+                    "rgb": [
+                        135,
+                        72,
+                        181
+                    ]
+                },
+                {
+                    "label": "Royal Amethyst - Mist",
+                    "hex": "#AC7CCF",
+                    "rgb": [
+                        172,
+                        124,
+                        207
+                    ]
+                },
+                {
+                    "label": "Cobalt Apex - Thick",
+                    "hex": "#0000FF",
+                    "rgb": [
+                        0,
+                        0,
+                        255
+                    ]
+                },
+                {
+                    "label": "Cobalt Apex - Standard",
+                    "hex": "#3333FF",
+                    "rgb": [
+                        51,
+                        51,
+                        255
+                    ]
+                },
+                {
+                    "label": "Cobalt Apex - Light",
+                    "hex": "#6666FF",
+                    "rgb": [
+                        102,
+                        102,
+                        255
+                    ]
+                },
+                {
+                    "label": "Cobalt Apex - Mist",
+                    "hex": "#9999FF",
+                    "rgb": [
+                        153,
+                        153,
+                        255
+                    ]
+                },
+                {
+                    "label": "Laser Lime - Thick",
+                    "hex": "#00FF00",
+                    "rgb": [
+                        0,
+                        255,
+                        0
+                    ]
+                },
+                {
+                    "label": "Laser Lime - Standard",
+                    "hex": "#33FF33",
+                    "rgb": [
+                        51,
+                        255,
+                        51
+                    ]
+                },
+                {
+                    "label": "Laser Lime - Light",
+                    "hex": "#66FF66",
+                    "rgb": [
+                        102,
+                        255,
+                        102
+                    ]
+                },
+                {
+                    "label": "Laser Lime - Mist",
+                    "hex": "#99FF99",
+                    "rgb": [
+                        153,
+                        255,
+                        153
+                    ]
+                },
+                {
+                    "label": "Solar Flare - Thick",
+                    "hex": "#FFFF00",
+                    "rgb": [
+                        255,
+                        255,
+                        0
+                    ]
+                },
+                {
+                    "label": "Solar Flare - Standard",
+                    "hex": "#FFFF33",
+                    "rgb": [
+                        255,
+                        255,
+                        51
+                    ]
+                },
+                {
+                    "label": "Solar Flare - Light",
+                    "hex": "#FFFF66",
+                    "rgb": [
+                        255,
+                        255,
+                        102
+                    ]
+                },
+                {
+                    "label": "Solar Flare - Mist",
+                    "hex": "#FFFF99",
+                    "rgb": [
+                        255,
+                        255,
+                        153
+                    ]
+                },
+                {
+                    "label": "Molten Tangerine - Thick",
+                    "hex": "#FF7F00",
+                    "rgb": [
+                        255,
+                        127,
+                        0
+                    ]
+                },
+                {
+                    "label": "Molten Tangerine - Standard",
+                    "hex": "#FF9933",
+                    "rgb": [
+                        255,
+                        153,
+                        51
+                    ]
+                },
+                {
+                    "label": "Molten Tangerine - Light",
+                    "hex": "#FFB266",
+                    "rgb": [
+                        255,
+                        178,
+                        102
+                    ]
+                },
+                {
+                    "label": "Molten Tangerine - Mist",
+                    "hex": "#FFCC99",
+                    "rgb": [
+                        255,
+                        204,
+                        153
+                    ]
+                },
+                {
+                    "label": "Crimson Core - Thick",
+                    "hex": "#FF0000",
+                    "rgb": [
+                        255,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "label": "Crimson Core - Standard",
+                    "hex": "#FF3333",
+                    "rgb": [
+                        255,
+                        51,
+                        51
+                    ]
+                },
+                {
+                    "label": "Crimson Core - Light",
+                    "hex": "#FF6666",
+                    "rgb": [
+                        255,
+                        102,
+                        102
+                    ]
+                },
+                {
+                    "label": "Crimson Core - Mist",
+                    "hex": "#FF9999",
+                    "rgb": [
+                        255,
+                        153,
+                        153
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "CUSTOM",
+            "smoothness": 0.25,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 24280
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "products/T-015_TEXTURED_PAINT_TEXTURED_PAINT_005/textures/albedo.jpg",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "SMP",
+            "label": "Sample",
+            "quantity": 1.0,
+            "unit": "Pcs",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 150.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "STD",
+            "label": "Standard",
+            "quantity": 10.0,
+            "unit": "SqM",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1500.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "TRD",
+            "label": "Trade",
+            "quantity": 50.0,
+            "unit": "SqM",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 6500.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Textured Paint Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Durable"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 2126,
+        "selectionCount": 205,
+        "lastSelectedVariantSKU": "STD",
+        "totalTimeViewed": 211.52037048339845,
+        "lastViewed": "2026-03-21T10:11:22.3672212Z"
+    }
+}

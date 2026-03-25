@@ -1,0 +1,183 @@
+{
+    "productId": "P-043",
+    "name": "Cherry Mahogany",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1574529Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#4B2D26",
+            "rgb": [
+                75,
+                45,
+                38
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#261613",
+                    "rgb": [
+                        38,
+                        22,
+                        19
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#38221C",
+                    "rgb": [
+                        56,
+                        34,
+                        28
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#4B2D26",
+                    "rgb": [
+                        75,
+                        45,
+                        38
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#52322A",
+                    "rgb": [
+                        82,
+                        50,
+                        42
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#5E3830",
+                    "rgb": [
+                        94,
+                        56,
+                        48
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#704339",
+                    "rgb": [
+                        112,
+                        67,
+                        57
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 2262,
+        "selectionCount": 311,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 636.154052734375,
+        "lastViewed": "2026-03-21T08:11:32.7711235Z"
+    }
+}

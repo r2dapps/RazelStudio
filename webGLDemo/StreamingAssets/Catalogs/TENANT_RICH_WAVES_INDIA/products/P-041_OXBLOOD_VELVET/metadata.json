@@ -1,0 +1,183 @@
+{
+    "productId": "P-041",
+    "name": "Oxblood Velvet",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1524816Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#800020",
+            "rgb": [
+                128,
+                0,
+                32
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#400010",
+                    "rgb": [
+                        64,
+                        0,
+                        16
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#600018",
+                    "rgb": [
+                        96,
+                        0,
+                        24
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#800020",
+                    "rgb": [
+                        128,
+                        0,
+                        32
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#8D0023",
+                    "rgb": [
+                        141,
+                        0,
+                        35
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#A00028",
+                    "rgb": [
+                        160,
+                        0,
+                        40
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#C00030",
+                    "rgb": [
+                        192,
+                        0,
+                        48
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 1135,
+        "selectionCount": 152,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 1451.615966796875,
+        "lastViewed": "2026-03-21T09:11:32.6596526Z"
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "productId": "P-042",
+    "name": "Nickel Plate",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1559911Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#A5A9A0",
+            "rgb": [
+                165,
+                169,
+                160
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#525450",
+                    "rgb": [
+                        82,
+                        84,
+                        80
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#7C7F78",
+                    "rgb": [
+                        124,
+                        127,
+                        120
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#A5A9A0",
+                    "rgb": [
+                        165,
+                        169,
+                        160
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#B6BAB0",
+                    "rgb": [
+                        182,
+                        186,
+                        176
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#CED3C8",
+                    "rgb": [
+                        206,
+                        211,
+                        200
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#F8FEF0",
+                    "rgb": [
+                        248,
+                        254,
+                        240
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 293,
+        "selectionCount": 366,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 1178.3468017578125,
+        "lastViewed": "2026-03-19T23:11:32.7155972Z"
+    }
+}

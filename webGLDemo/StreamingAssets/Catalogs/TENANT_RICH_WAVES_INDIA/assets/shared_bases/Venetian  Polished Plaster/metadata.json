@@ -1,0 +1,16 @@
+{
+    "baseId": "Venetian  Polished Plaster",
+    "style": "Polished",
+    "albedo": {
+        "instanceID": 28256
+    },
+    "normal": {
+        "instanceID": 28286
+    },
+    "roughness": {
+        "instanceID": 28314
+    },
+    "albedoPath": "assets/shared_bases/Venetian  Polished Plaster/albedo.jpg",
+    "normalPath": "assets/shared_bases/Venetian  Polished Plaster/normal.jpg",
+    "roughnessPath": "assets/shared_bases/Venetian  Polished Plaster/roughness.jpg"
+}

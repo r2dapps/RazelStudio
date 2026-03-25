@@ -1,0 +1,183 @@
+{
+    "productId": "P-008",
+    "name": "Copper Harvest",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1322567Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#B87333",
+            "rgb": [
+                184,
+                115,
+                51
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#5C3A19",
+                    "rgb": [
+                        92,
+                        58,
+                        25
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#8A5626",
+                    "rgb": [
+                        138,
+                        86,
+                        38
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#B87333",
+                    "rgb": [
+                        184,
+                        115,
+                        51
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#CA7F38",
+                    "rgb": [
+                        202,
+                        127,
+                        56
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#E69040",
+                    "rgb": [
+                        230,
+                        144,
+                        64
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#FF9F47",
+                    "rgb": [
+                        255,
+                        159,
+                        71
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 260,
+        "selectionCount": 127,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 1231.577880859375,
+        "lastViewed": "2026-03-19T23:11:30.8310543Z"
+    }
+}

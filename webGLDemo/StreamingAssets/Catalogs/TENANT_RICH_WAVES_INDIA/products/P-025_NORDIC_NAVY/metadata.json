@@ -1,0 +1,183 @@
+{
+    "productId": "P-025",
+    "name": "Nordic Navy",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1429561Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#2C3E50",
+            "rgb": [
+                44,
+                62,
+                80
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#161F28",
+                    "rgb": [
+                        22,
+                        31,
+                        40
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#212E3C",
+                    "rgb": [
+                        33,
+                        46,
+                        60
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#2C3E50",
+                    "rgb": [
+                        44,
+                        62,
+                        80
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#304458",
+                    "rgb": [
+                        48,
+                        68,
+                        88
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#374E64",
+                    "rgb": [
+                        55,
+                        78,
+                        100
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#425D78",
+                    "rgb": [
+                        66,
+                        93,
+                        120
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 2021,
+        "selectionCount": 397,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 1111.1085205078125,
+        "lastViewed": "2026-03-21T16:11:31.7673293Z"
+    }
+}

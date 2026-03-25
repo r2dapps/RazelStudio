@@ -1,0 +1,183 @@
+{
+    "productId": "P-038",
+    "name": "Vanilla Cream",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1494894Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#F3E5AB",
+            "rgb": [
+                243,
+                229,
+                171
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#7A7256",
+                    "rgb": [
+                        122,
+                        114,
+                        86
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#B6AC80",
+                    "rgb": [
+                        182,
+                        172,
+                        128
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#F3E5AB",
+                    "rgb": [
+                        243,
+                        229,
+                        171
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#FFF0B3",
+                    "rgb": [
+                        255,
+                        240,
+                        179
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#FFF0B3",
+                    "rgb": [
+                        255,
+                        240,
+                        179
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#FFF0B3",
+                    "rgb": [
+                        255,
+                        240,
+                        179
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 2280,
+        "selectionCount": 339,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 855.61474609375,
+        "lastViewed": "2026-03-20T01:11:32.4931997Z"
+    }
+}

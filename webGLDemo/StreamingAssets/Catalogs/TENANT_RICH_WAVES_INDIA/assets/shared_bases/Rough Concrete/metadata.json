@@ -1,0 +1,16 @@
+{
+    "baseId": "Rough Concrete",
+    "style": "Concrete",
+    "albedo": {
+        "instanceID": 28276
+    },
+    "normal": {
+        "instanceID": 28298
+    },
+    "roughness": {
+        "instanceID": 28306
+    },
+    "albedoPath": "assets/shared_bases/Rough Concrete/albedo.jpg",
+    "normalPath": "assets/shared_bases/Rough Concrete/normal.jpg",
+    "roughnessPath": "assets/shared_bases/Rough Concrete/roughness.jpg"
+}

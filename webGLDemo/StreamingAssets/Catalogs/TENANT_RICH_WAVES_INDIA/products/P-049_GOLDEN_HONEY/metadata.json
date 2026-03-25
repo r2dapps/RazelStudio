@@ -1,0 +1,183 @@
+{
+    "productId": "P-049",
+    "name": "Golden Honey",
+    "productType": "Paint",
+    "categoryId": "CAT_PAINT",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.1594447Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Exterior",
+        "Wall",
+        "Ceiling"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "#D4AF37",
+            "rgb": [
+                212,
+                175,
+                55
+            ],
+            "shadePalette": [
+                {
+                    "label": "Night",
+                    "hex": "#6A581B",
+                    "rgb": [
+                        106,
+                        88,
+                        27
+                    ]
+                },
+                {
+                    "label": "Shadow",
+                    "hex": "#9F8329",
+                    "rgb": [
+                        159,
+                        131,
+                        41
+                    ]
+                },
+                {
+                    "label": "Base",
+                    "hex": "#D4AF37",
+                    "rgb": [
+                        212,
+                        175,
+                        55
+                    ]
+                },
+                {
+                    "label": "Warm",
+                    "hex": "#E9C13C",
+                    "rgb": [
+                        233,
+                        193,
+                        60
+                    ]
+                },
+                {
+                    "label": "Mist",
+                    "hex": "#FFD242",
+                    "rgb": [
+                        255,
+                        210,
+                        66
+                    ]
+                },
+                {
+                    "label": "Light",
+                    "hex": "#FFD242",
+                    "rgb": [
+                        255,
+                        210,
+                        66
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "textureId": "PAINT_BASE",
+            "smoothness": 0.5,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 0
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "V1",
+            "label": "1 Liter Tub",
+            "quantity": 1.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 450.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V2",
+            "label": "4 Liter Bucket",
+            "quantity": 4.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1600.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "V3",
+            "label": "10 Liter Drum",
+            "quantity": 10.0,
+            "unit": "Ltr",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 3800.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Matte Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Zero VOC"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 1734,
+        "selectionCount": 143,
+        "lastSelectedVariantSKU": "V2",
+        "totalTimeViewed": 976.115478515625,
+        "lastViewed": "2026-03-20T19:11:33.1108994Z"
+    }
+}

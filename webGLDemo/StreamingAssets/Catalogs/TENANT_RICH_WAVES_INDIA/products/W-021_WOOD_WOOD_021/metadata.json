@@ -1,0 +1,127 @@
+{
+    "productId": "W-021",
+    "name": "Wood_Wood 021",
+    "productType": "Wood",
+    "categoryId": "CAT_WOOD",
+    "revision": 1,
+    "lastModifiedUTC": "2026-03-21T17:12:07.3631464Z",
+    "_isExpanded": false,
+    "applicability": [
+        "Interior",
+        "Wall",
+        "Floor"
+    ],
+    "rendering": {
+        "colorData": {
+            "hex": "",
+            "rgb": [
+                0,
+                0,
+                0
+            ],
+            "shadePalette": []
+        },
+        "parameters": {
+            "textureId": "CUSTOM",
+            "smoothness": 0.15000000596046449,
+            "metallic": 0.0,
+            "normalStrength": 1.0,
+            "reflectance": 0.30000001192092898,
+            "textureTiling": 1.0
+        },
+        "textures": {
+            "albedoMap": {
+                "instanceID": 23962
+            },
+            "normalMap": {
+                "instanceID": 0
+            },
+            "roughnessMap": {
+                "instanceID": 0
+            },
+            "metallicMap": {
+                "instanceID": 0
+            },
+            "ambientOcclusionMap": {
+                "instanceID": 0
+            },
+            "emissionMap": {
+                "instanceID": 0
+            },
+            "albedoPath": "products/W-021_WOOD_WOOD_021/textures/albedo.jpg",
+            "normalPath": "",
+            "roughnessPath": "",
+            "metallicPath": "",
+            "ambientOcclusionPath": "",
+            "emissionPath": ""
+        }
+    },
+    "variants": [
+        {
+            "sku": "SMP",
+            "label": "Sample",
+            "quantity": 1.0,
+            "unit": "Pcs",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 150.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "STD",
+            "label": "Standard",
+            "quantity": 10.0,
+            "unit": "SqM",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 1500.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        },
+        {
+            "sku": "TRD",
+            "label": "Trade",
+            "quantity": 50.0,
+            "unit": "SqM",
+            "pricing": {
+                "currency": "INR",
+                "basePrice": 6500.0,
+                "coveragePerUnit": 0.0
+            },
+            "assets": {
+                "imagePreview": ""
+            }
+        }
+    ],
+    "specifications": {
+        "technical": {
+            "washable": true,
+            "finish": "Wood Finish"
+        },
+        "marketing": {
+            "isPremium": false,
+            "highlightFeatures": [
+                "Premium Quality",
+                "Durable"
+            ]
+        },
+        "certifications": []
+    },
+    "status": {
+        "isActive": true
+    },
+    "analytics": {
+        "viewCount": 1183,
+        "selectionCount": 295,
+        "lastSelectedVariantSKU": "STD",
+        "totalTimeViewed": 1062.1268310546875,
+        "lastViewed": "2026-03-20T00:12:04.4192189Z"
+    }
+}

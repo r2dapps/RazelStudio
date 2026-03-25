@@ -1,0 +1,16 @@
+{
+    "baseId": "Eggshell",
+    "style": "Satin",
+    "albedo": {
+        "instanceID": 28320
+    },
+    "normal": {
+        "instanceID": 28270
+    },
+    "roughness": {
+        "instanceID": 28356
+    },
+    "albedoPath": "assets/shared_bases/Eggshell/albedo.jpg",
+    "normalPath": "assets/shared_bases/Eggshell/normal.jpg",
+    "roughnessPath": "assets/shared_bases/Eggshell/roughness.jpg"
+}
