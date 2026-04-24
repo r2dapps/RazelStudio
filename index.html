@@ -16,7 +16,10 @@
 <body>
     <!-- Initial Boot Loader -->
     <div id="boot-loader" class="boot-loader">
-        <div class="brand-logo">Razel Studio<span>: Finish Pro</span></div>
+        <div class="brand-logo" style="display:flex; flex-direction:column; align-items:center; text-align:center;">
+            <img id="collab-logo-img" src="" alt="" style="display:none; height:120px; width:auto; max-width:400px; margin-bottom:30px; object-fit:contain; filter: brightness(0) invert(1);">
+            <div>Razel Studio<span>: Finish Pro</span></div>
+        </div>
         <div class="progress-bar-container">
             <div id="progress-bar-fill" class="progress-bar-fill pulse"></div>
         </div>
@@ -34,7 +37,10 @@
 
         <!-- Persistent Header -->
         <header class="top-header">
-            <div class="header-brand">Razel Studio</div>
+            <div class="header-brand" style="display:flex; align-items:center; gap:20px;">
+                <img id="header-collab-img" src="" alt="" style="display:none; height:32px; max-width:200px; object-fit:contain; filter: brightness(0) invert(1);">
+                Razel Studio
+            </div>
             <div class="header-actions" style="display:flex; gap:12px; align-items:center;">
                 <button id="btn-cost-estimate" class="action-btn" onclick="toggleEstimator()">Cost Estimate</button>
                 <button id="btn-4k-export" class="action-btn gold-btn">4K Export</button>

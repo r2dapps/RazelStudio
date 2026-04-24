@@ -50,6 +50,7 @@ const tilingScales = [
 document.addEventListener('DOMContentLoaded', () => {
     setupUIEvents();
     setupUnityBridge();
+    loadWhiteLabelSettings();
     initCatalog();
 
     // Dynamically Generate Finish Effect Buttons
@@ -207,6 +208,41 @@ function setupUIEvents() {
             bottomSheet.classList.add('open');
             // Populate sheet with Inspector props
         });
+    }
+}
+
+async function loadWhiteLabelSettings() {
+    try {
+        const response = await fetch('whiteLabelData/whiteLabel.json');
+        if (!response.ok) return;
+        
+        const settings = await response.json();
+        if (!settings || settings.showCollab === false) return;
+        if (!settings.logoPath) return;
+
+        // Apply Collab Logo to Boot Loader
+        const bootLogo = document.getElementById('collab-logo-img');
+        if (bootLogo) {
+            bootLogo.src = settings.logoPath;
+            bootLogo.style.display = 'inline-block';
+            if (settings.clientName) bootLogo.alt = settings.clientName;
+        }
+
+        // Apply Collab Logo to Header
+        const headerLogo = document.getElementById('header-collab-img');
+        if (headerLogo) {
+            headerLogo.src = settings.logoPath;
+            headerLogo.style.display = 'block';
+            if (settings.clientName) headerLogo.alt = settings.clientName;
+        }
+
+        // Update document title if collaboration is active
+        if (settings.clientName) {
+            document.title = `Razel Studio x ${settings.clientName}: Finish Pro`;
+        }
+
+    } catch (err) {
+        console.warn("[WhiteLabel] No collaboration data found or failed to load.");
     }
 }
 
@@ -383,7 +419,7 @@ window.restoreOriginals = function () {
     window.currentObjectName = null;
     document.querySelectorAll('.active-chip').forEach(c => c.classList.remove('active-chip'));
     document.querySelectorAll('.active-item').forEach(el => el.classList.remove('active-item'));
-    
+
     // UI Reset: Close inspector if product is removed
     document.getElementById('inspector-empty').classList.remove('hidden');
     document.getElementById('inspector-populated').classList.add('hidden');
@@ -723,7 +759,6 @@ async function initCatalog() {
 
         catalogList.innerHTML = '';
 
-        // 2. Render Accordions
         Object.keys(grouped).forEach(catId => {
             const products = grouped[catId];
             const catTitle = categoryMap[catId] || catId;
