@@ -17,8 +17,12 @@
     <!-- Initial Boot Loader -->
     <div id="boot-loader" class="boot-loader">
         <div class="brand-logo" style="display:flex; flex-direction:column; align-items:center; text-align:center;">
-            <img id="collab-logo-img" src="" alt="" style="display:none; height:120px; width:auto; max-width:400px; margin-bottom:30px; object-fit:contain; filter: brightness(0) invert(1);">
-            <div>Razel Studio<span>: Finish Pro</span></div>
+            <div id="collab-branding" style="display:none; flex-direction:column; align-items:center;">
+                <img id="collab-logo-img" src="" alt="" style="height:110px; width:auto; max-width:400px; object-fit:contain;">
+                <div id="collab-client-name" style="font-size: 0.9rem; color: var(--text-secondary); letter-spacing: 5px; margin-top: 15px; text-transform: uppercase; font-weight: 300;"></div>
+                <div style="margin: 25px 0; font-family: var(--font-data); font-size: 0.8rem; color: var(--accent-gold); opacity: 0.6; letter-spacing: 2px;">×</div>
+            </div>
+            <div style="font-size: 2.2rem; letter-spacing: 3px;">Razel Studio<span style="color:var(--accent-gold); font-weight: 400;">: Finish Pro</span></div>
         </div>
         <div class="progress-bar-container">
             <div id="progress-bar-fill" class="progress-bar-fill pulse"></div>
@@ -37,8 +41,9 @@
 
         <!-- Persistent Header -->
         <header class="top-header">
-            <div class="header-brand" style="display:flex; align-items:center; gap:20px;">
-                <img id="header-collab-img" src="" alt="" style="display:none; height:32px; max-width:200px; object-fit:contain; filter: brightness(0) invert(1);">
+            <div class="header-brand" style="display:flex; align-items:center; gap:15px;">
+                <img id="header-collab-img" src="" alt="" style="display:none; height:28px; max-width:180px; object-fit:contain;">
+                <span id="header-x" style="display:none; color: var(--accent-gold); opacity: 0.5; font-size: 0.8rem;">×</span>
                 Razel Studio
             </div>
             <div class="header-actions" style="display:flex; gap:12px; align-items:center;">

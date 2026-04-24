@@ -22,6 +22,18 @@
     --bottom-nav-height: 60px;
 }
 
+/* --- Performance Optimization Hooks --- */
+.low-perf * {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    transition: none !important;
+    animation-duration: 0.01s !important;
+}
+
+.low-perf .pulse {
+    animation: none !important;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

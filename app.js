@@ -213,7 +213,7 @@ function setupUIEvents() {
 
 async function loadWhiteLabelSettings() {
     try {
-        const response = await fetch('whiteLabelData/whiteLabel.json');
+        const response = await fetch(`whiteLabelData/whiteLabel.json?v=${new Date().getTime()}`);
         if (!response.ok) return;
         
         const settings = await response.json();
@@ -221,18 +221,43 @@ async function loadWhiteLabelSettings() {
         if (!settings.logoPath) return;
 
         // Apply Collab Logo to Boot Loader
+        const collabContainer = document.getElementById('collab-branding');
         const bootLogo = document.getElementById('collab-logo-img');
-        if (bootLogo) {
-            bootLogo.src = settings.logoPath;
-            bootLogo.style.display = 'inline-block';
-            if (settings.clientName) bootLogo.alt = settings.clientName;
+        const clientNameEl = document.getElementById('collab-client-name');
+        
+        if (collabContainer && bootLogo) {
+            const cacheBuster = `?v=${new Date().getTime()}`;
+            bootLogo.src = settings.logoPath + cacheBuster;
+            
+            // If the logo has a white background, we can invert it to look good on dark theme
+            if (settings.invertLogo) {
+                bootLogo.style.filter = 'invert(1) drop-shadow(0 0 15px rgba(255,255,255,0.1))';
+            } else {
+                bootLogo.style.filter = 'none';
+            }
+
+            collabContainer.style.display = 'flex';
+            if (settings.clientName) {
+                bootLogo.alt = settings.clientName;
+                if (clientNameEl) clientNameEl.innerText = settings.clientName;
+            }
         }
 
         // Apply Collab Logo to Header
         const headerLogo = document.getElementById('header-collab-img');
+        const headerX = document.getElementById('header-x');
         if (headerLogo) {
-            headerLogo.src = settings.logoPath;
+            const cacheBuster = `?v=${new Date().getTime()}`;
+            headerLogo.src = settings.logoPath + cacheBuster;
+            
+            if (settings.invertLogo) {
+                headerLogo.style.filter = 'invert(1)';
+            } else {
+                headerLogo.style.filter = 'none';
+            }
+
             headerLogo.style.display = 'block';
+            if (headerX) headerX.style.display = 'inline';
             if (settings.clientName) headerLogo.alt = settings.clientName;
         }
 
@@ -815,9 +840,10 @@ async function initCatalog() {
                     // Paints show as solid color cards for clear shade identification
                     preview.style.backgroundColor = productHex;
                 } else if (exactAlbedo) {
-                    // Natural stones and other types show their texture maps
-                    preview.style.backgroundImage = `url('webGLDemo/${exactAlbedo}')`;
-                    preview.style.backgroundSize = "cover";
+                    // Use Lazy Loading for textures
+                    preview.dataset.src = `webGLDemo/${exactAlbedo}`;
+                    preview.classList.add('lazy-load');
+                    preview.style.backgroundColor = '#222'; // Placeholder
                 } else {
                     preview.style.backgroundColor = productHex || '#333';
                 }
@@ -843,6 +869,9 @@ async function initCatalog() {
             groupDiv.appendChild(content);
             catalogList.appendChild(groupDiv);
         });
+
+        // Initialize Intersection Observer for Lazy Loading
+        initLazyLoading();
 
     } catch (error) {
         console.error("Failed to fetch catalog.json", error);
@@ -1403,3 +1432,37 @@ window.generateBrandedExport = async function (imageUrl) {
         if (overlay) overlay.style.display = 'none';
     };
 };
+
+// --- Performance & Lazy Loading Utilities ---
+
+function initLazyLoading() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const el = entry.target;
+                if (el.dataset.src) {
+                    el.style.backgroundImage = `url('${el.dataset.src}')`;
+                    el.style.backgroundSize = "cover";
+                    el.classList.remove('lazy-load');
+                    obs.unobserve(el);
+                }
+            }
+        });
+    }, { root: document.getElementById('catalog-list'), rootMargin: '100px' });
+
+    document.querySelectorAll('.lazy-load').forEach(el => observer.observe(el));
+}
+
+function checkPerformanceMode() {
+    // Detect iPad, Mobile, or Low RAM hints if available
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const hasLowMemory = navigator.deviceMemory && navigator.deviceMemory <= 4;
+    
+    if (isMobile || hasLowMemory) {
+        console.log("[Performance] Low performance mode enabled for mobile/tablet.");
+        document.body.classList.add('low-perf');
+    }
+}
+
+// Ensure performance check runs on initial load
+checkPerformanceMode();

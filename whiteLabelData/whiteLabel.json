@@ -1,5 +1,6 @@
 {
     "clientName": "INVISION XR STUDIOS",
     "logoPath": "whiteLabelData/INVISIONXRSTUDIOS_logo.png",
-    "showCollab": true
+    "showCollab": true,
+    "invertLogo": false
 }
